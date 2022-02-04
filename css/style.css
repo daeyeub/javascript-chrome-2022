@@ -76,6 +76,9 @@ input:focus {
   width: 20vw;
   border-bottom: 2px solid white;
 }
+.log-in {
+  margin-bottom: 20px;
+}
 button {
   background: none;
   border: none;
