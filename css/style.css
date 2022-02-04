@@ -69,19 +69,12 @@ button,
   border: none;
   color: white;
   font-size: 110%;
-<<<<<<< HEAD
-  margin-top: 30px;
-
-=======
   margin-top: 10%;
   text-align: center;
->>>>>>> main
   width: 20vw;
   border-bottom: 2px solid white;
 }
-.log-in {
-  margin-bottom: 20px;
-}
+
 button {
   background: none;
   border: none;
