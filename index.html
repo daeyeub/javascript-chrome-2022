@@ -15,10 +15,7 @@
             <button>Log In</button>
         </form>
         <h1 id="greeting" class="hidden"></h1>
-        <form id="todo-form">
-            <input type="text" placeholder="Write a To Do" required />
-        </form>
-        <ul id="todo-list"></ul>
+       
         <div id="quote">
             <span></span>
             <span></span>
@@ -26,19 +23,32 @@
     </div>
     <div class="head">
         <div class="left-head">
-            <button>
-                <span>To do!!</span>
-                <a href="#"></a>
-            </button>
+            
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>  
             <form class="search" action="http://www.google.com/search" method="get">
                 <button><i class="fas fa-search"></i></button>
                 <input name="q" type="text" placeholder="Search">
             </form>
         </div>
-        <div id="weather">
-            <span></span>
-            <span></span>
-        </div>    
+        <div class="modal__total">
+            <button class="modal__btn" id="open__modal">TO do!!</button>
+            <div class="modal hidden">
+                <div class="modal__overlay"></div>
+                <div class="modal__content">
+                    <div class="modal__head">
+                        <h1 class="modal__title">Today</h1>
+                        <button class="modal__btn">x</button>
+                    </div>
+                    <form class="modal__input" id="todo-form">
+                        <input type="text" placeholder="Write a To Do" required />
+                    </form>
+                    <ul id="todo-list"></ul>
+                </div>
+            </div>
+        </div>  
     </div>
         
     <script src="js/greeting.js"></script> 
@@ -47,6 +57,7 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/modal.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

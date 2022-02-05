@@ -1,5 +1,7 @@
 @import "css/reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Nunito:wght@300&family=Short+Stack&display=swap");
+@import "css/modal.css";
+
 .hidden {
   display: none;
 }
@@ -87,6 +89,7 @@ li {
 
 #quote {
   font-size: 15px;
+  margin-top: 20px;
 }
 #weather {
   display: flex;
@@ -122,6 +125,7 @@ i {
 }
 .head {
   position: absolute;
+
   display: flex;
   justify-content: space-between;
   width: 90vw;
